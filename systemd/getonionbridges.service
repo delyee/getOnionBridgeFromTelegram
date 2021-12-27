@@ -1,0 +1,7 @@
+[Unit]
+Description=Run script at startup
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /root/getOnionBridgeFromTelegram-master/main.py
+TimeoutStartSec=0
