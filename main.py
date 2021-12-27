@@ -4,7 +4,7 @@ import logging
 from config import *
 import os
 
-os.chdir(os.path.join(os.path.dirname(__file__))) # hack for systemd
+os.chdir(os.path.dirname(os.path.realpath(__file__))) # hack for systemd
 
 logger = logging.getLogger("getbridges")
 logger.setLevel(logging.INFO)
