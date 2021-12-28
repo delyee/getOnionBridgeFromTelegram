@@ -3,5 +3,5 @@ Description=Run script at startup
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/python3 /root/getOnionBridgeFromTelegram-master/main.py
+ExecStart=/usr/bin/python3 /root/getOnionBridgeFromTelegram/main.py
 TimeoutStartSec=0
